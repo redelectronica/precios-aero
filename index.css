@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif; 
+    margin: 0;
+}
+
+
+h2{ font-size: 4em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.25em;}
+ul{ list-style: none;}
+li{ font-size: 1.25em;}
+
+div{     
+    text-align: center;
+}
+p {    
+    margin-left: 157px
+}
+
+
+
+
+
+
+
+
+header{
+    background-color: rgb(255, 252, 250);
+    
+}
+
+header .logo{
+    text-align: center;
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: rgb(249, 58, 6);
+    font-size: 2em
+    
+    
+}
+
+header .container{
+    text-align: center;
+    flex-direction: column;
+
+    
+   
+    
+}
+
+
+h1{      
+    color:  rgb(249, 58, 6);
+    text-align: center;}
+    
+     
+
+
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.35),
+        rgba(0, 15, 90, 0.10)
+    )
+    ,url("media/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero h2{
+    color:rgb(253, 250, 250)
+    
+}
+
+
+
+
+a {
+
+    color: #090909f7;
+    font-size: 1.30em;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 5px;
+    text-align: center
+    
+    
+   
+   
+    
+   
+    
+    
+  
+   
+    
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+    
+
+   
+    
+
+   
+    
+
+   
+    
+
+    
